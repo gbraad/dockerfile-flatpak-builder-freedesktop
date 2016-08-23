@@ -10,9 +10,11 @@ Build container for flatpak with pre-installed Freedesktop 1.4 Runtime and SDK.
 Usage
 -----
 
-  * flatpak-builder  
-    `docker pull registry.gitlab.com/gbraad/flatpak-builder-freedesktop`
-  * ...
+```
+$ alias flatpak-builder-freedesktop='docker run -it --rm -v $PWD:/workspace registry.gitlab.com/gbraad/flatpak-builder-freedesktop bash'
+$ flatpak-builder-freedesktop
+[root@655f34f18fb5 workspace]# 
+```
 
 
 Authors

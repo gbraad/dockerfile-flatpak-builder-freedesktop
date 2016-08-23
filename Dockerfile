@@ -9,5 +9,6 @@ RUN mkdir -p /workspace; \
     flatpak install gnome org.freedesktop.Sdk 1.4
 
 VOLUME /workspace
-CMD bash
+WORKDIR /workspace
 
+CMD bash
