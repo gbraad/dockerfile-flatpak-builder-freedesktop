@@ -4,7 +4,7 @@ Flatpak builder: freedesktop Runtime and SDK
 !["Prompt"](https://raw.githubusercontent.com/gbraad/assets/gh-pages/icons/prompt-icon-64.png)
 
 
-Build container for flatpak with pre-installed Freedesktop 1.4 Runtime and SDK.
+Build container for flatpak with pre-installed Freedesktop 1.6 Runtime and SDK.
 
 
 Usage
